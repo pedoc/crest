@@ -1,0 +1,17 @@
+{
+    "unityVersion": "6000.6.1f1",
+    "renderPipeline": "Built-in",
+    "checkedAt": "2026-10-13T16:00:33.7297199+08:00",
+    "scope": "Windows D3D11 standalone FFT/depth smoke; not all example or XR certification",
+    "passed": true,
+    "oceanActive": true,
+    "fftActive": true,
+    "terrainShaderSupported": true,
+    "depthActive": true,
+    "sampledHeightRange": 0.11456298828125,
+    "fps": 28.862712860107422,
+    "errors": [],
+    "screenshots": [
+        "unity6000-crest-smoke.png"
+    ]
+}

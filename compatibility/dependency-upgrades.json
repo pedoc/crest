@@ -1,0 +1,33 @@
+{
+  "targetEditor": "6000.6.1f1",
+  "upstreamCommit": "db0658ff0b2e93e4a9e28cc2867509658b0ecc00",
+  "packageUpgrades": {
+    "com.unity.inputsystem": "1.20.1",
+    "com.unity.splines": "2.9.1",
+    "com.unity.postprocessing": "3.5.4",
+    "com.unity.ai.navigation": "2.0.16",
+    "com.unity.timeline": "6.6.0",
+    "com.unity.xr.management": "4.6.1",
+    "com.unity.xr.legacyinputhelpers": "3.0.1",
+    "com.unity.ide.visualstudio": "2.0.28",
+    "com.unity.test-framework": "1.8.0",
+    "com.unity.cinemachine": "6.6.0",
+    "com.unity.burst": "2.0.0",
+    "com.unity.mathematics": "1.4.0",
+    "com.unity.ugui": "2.6.0"
+  },
+  "renderPipeline": "Built-in",
+  "optionalIntegrationsRemoved": false,
+  "retiredUnityModulesRemoved": [
+    "com.unity.modules.vr"
+  ],
+  "note": "Legacy VR module is not shipped by Unity 6000.6. XR Legacy Input Helpers 3.0.1 removes the retired module dependency while modern XR remains enabled. Unity 6000.6 resolves some packages from its built-in distribution; the manifest now explicitly records the versions actually compiled rather than claiming the requested older registry pins were used.",
+  "editorBundledVersionsUsed": {
+    "com.unity.burst": "2.0.0",
+    "com.unity.cinemachine": "6.6.0",
+    "com.unity.mathematics": "1.4.0",
+    "com.unity.test-framework": "1.8.0",
+    "com.unity.timeline": "6.6.0",
+    "com.unity.ugui": "2.6.0"
+  }
+}

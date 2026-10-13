@@ -4,3 +4,6 @@
 .vscode/
 .mono/
 *.code-workspace
+
+# Local standalone test builds, not source or curated verification evidence
+/builds/

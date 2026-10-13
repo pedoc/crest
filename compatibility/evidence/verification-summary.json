@@ -1,0 +1,69 @@
+{
+  "checkedAtClientDate": "2026-10-13",
+  "targetEditor": "6000.6.1f1",
+  "upstreamCommit": "db0658ff0b2e93e4a9e28cc2867509658b0ecc00",
+  "fullProjectImportAndWindowsBuildPassed": true,
+  "resolvedPackageGraphLocked": true,
+  "originalOptionalIntegrationAsmdefPreserved": true,
+  "runtimeSmokePassed": true,
+  "runtime": {
+    "unityVersion": "6000.6.1f1",
+    "renderPipeline": "Built-in",
+    "checkedAt": "2026-10-13T16:00:33.7297199+08:00",
+    "scope": "Windows D3D11 standalone FFT/depth smoke; not all example or XR certification",
+    "passed": true,
+    "oceanActive": true,
+    "fftActive": true,
+    "terrainShaderSupported": true,
+    "depthActive": true,
+    "sampledHeightRange": 0.11456298828125,
+    "fps": 28.862712860107422,
+    "errors": [],
+    "screenshots": [
+      "unity6000-crest-smoke.png"
+    ]
+  },
+  "screenshotInspected": true,
+  "screenshotMethod": "Actual Camera.Render to render texture; no splash/occluded screen capture",
+  "claimsNotMade": [
+    "URP/HDRP port",
+    "all example scenes passed",
+    "XR hardware/Gaia certified",
+    "all Unity 6000.x versions certified",
+    "cross-platform certification"
+  ],
+  "artifacts": [
+    {
+      "file": "crest/Packages/manifest.json",
+      "sha256": "104275c48565bb4e2c17399e93b468a6cc12a5f3d1a0386a7ebee10d1a94644b"
+    },
+    {
+      "file": "crest/Packages/packages-lock.json",
+      "sha256": "59808d40d0f27db76b99c54f6b202715926c628b436360d54652cfb10637707f"
+    },
+    {
+      "file": "crest/ProjectSettings/ProjectVersion.txt",
+      "sha256": "c42304ccf9a727e75d565625e67a9d17e07ca408948b5385b940ad38ba04da98"
+    },
+    {
+      "file": "crest/Assets/Crest/Crest/Scripts/Crest.asmdef",
+      "sha256": "7985c539be728963beec592f3b142c0aabe7a316389a755016a24870961ef6c9"
+    },
+    {
+      "file": "crest/Assets/Compatibility/Unity6000Smoke.cs",
+      "sha256": "f3f9943f29bc18416ab075c1fcd57f78ef29ab0f960ebea49aac59cdfc1920b7"
+    },
+    {
+      "file": "crest/Assets/Compatibility/Editor/Unity6000SmokeBuild.cs",
+      "sha256": "ab119398446c75764c53e6e02fa1fda02733d33df9c40b6017ff40037130cc8b"
+    },
+    {
+      "file": "compatibility/evidence/runtime-verification.json",
+      "sha256": "41504a116d00c0ae4479f9e53a4ac36e8a5adcc9ff77cc4bba0832296322268c"
+    },
+    {
+      "file": "compatibility/evidence/unity6000-crest-smoke.png",
+      "sha256": "204402f62ba27b531f6ab36302ab80f723155d9d778e8c2753e63c975a62682b"
+    }
+  ]
+}

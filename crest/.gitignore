@@ -6,6 +6,7 @@
 # Ignore local packages.
 /[Pp]ackages/*
 !/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
 
 # Ignore generated build settings.
 /[Pp]roject[Ss]ettings/BurstAotSettings_*.json
@@ -134,3 +135,13 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Reproducible standalone compatibility smoke outputs
+/Assets/Compatibility/Generated/
+/Assets/Compatibility/Generated.meta
+
+# Unity-generated editor/project defaults not required by the source migration
+/.vsconfig
+/ProjectSettings/MultiplayerManager.asset
+/ProjectSettings/PhysicsCoreProjectSettings2D.asset
+/ProjectSettings/ProjectAuditorSettings.asset

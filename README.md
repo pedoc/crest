@@ -1,3 +1,5 @@
+> **Unity 6000.6 compatibility fork** — This branch targets Unity **6000.6.1f1** and preserves Crest's **Built-in** render pipeline. Dependency upgrades, reproducible build/render smoke, results, and limitations are documented in [compatibility/UNITY-6000.6.md](compatibility/UNITY-6000.6.md). The original upstream project and MIT license are retained below. This is not a URP/HDRP package.
+
 <div align="center">
 
 ![Header](https://github.com/wave-harmonic/crest/blob/master/img/Header.jpg?raw=true)
